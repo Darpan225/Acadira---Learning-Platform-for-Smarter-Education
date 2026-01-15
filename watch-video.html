@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+
+    <!-- fonts - awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- custom css file -->
+
+    <link rel="stylesheet" href="/Assets/CSS/style.css">
+
+</head>
+
+<body>
+
+    <!--------- header section  ----------------->
+
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="index.html" class="logo">Acadira</a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+                <button type="submit" class="fas fa-search" name=" search_box">
+                </button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="/Assets/Images/prof_img.png" class="image" alt="">
+                <h3 class="name">Darpan Biswas</h3>
+                <p class="role">student</p>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+
+
+        </section>
+
+    </header>
+
+
+    <!--------- header section ends  ----------------->
+
+    <!--------- sidebar section starts  ----------------->
+
+    <div class="side-bar">
+
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+
+
+        <div class="profile">
+            <img src="/Assets/Images/sideBar_prof_img.png" class="image" alt="" height="100">
+            <h3 class="name">Darpan Biswas</h3>
+            <p class="role">student</p>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html"><i class="fas fa-home"></i><span>home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>about us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+        </nav>
+
+
+    </div>
+
+    <!--------- sidebar section ends  ----------------->
+
+
+    <!--------- Watch video section starts  ----------------->
+
+    <section class="watch-video">
+
+        <div class="video-details">
+            <video src="/Assets/Images/vid-1.mp4" class="video" poster="Assets/Images/post-1-1.png" controls
+                autoplay></video>
+
+            <h3 class="title"> complete HTML tutorial (part 01) </h3>
+
+            <div class="info">
+                <p> <i class="fas fa-calendar"> </i> <span>02/12/2025</span> </p>
+                <p> <i class="fas fa-heart"> </i> <span>45 likes</span> </p>
+            </div>
+
+            <div class="tutor">
+
+                <img src="/Assets/Images/teach-img1.png" alt="">
+
+                <div>
+                    <h3>Dr. Tim Berners </h3>
+                    <span>Developer</span>
+
+                </div>
+            </div>
+
+            <form action="" method="post" class="flex">
+                <a href="playlist.html" class="inline-btn">view playlist</a>
+                <button type="submit"> <i class="far fa-heart"> </i>
+
+                    <span>like</span> </button>
+            </form>
+
+            <div class="description">
+
+                <p>This course teaches HTML from basics to core concepts, helping you build structured, accessible
+                    websites using essential tags, elements, and semantic markup with confidence.</p>
+
+                <p>This HTML course guides you from beginner to confident web creator. You will learn essential tags,
+                    elements, and semantic HTML to build well-structured, accessible, and responsive web pages suitable
+                    for real-world projects.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--------- Watch video section ends  ----------------->
+
+
+    <!--------- Comments section starts  ----------------->
+
+    <section class="comments">
+        <h1 class="heading">add comment</h1>
+
+        <form action="" method="post" class="add-comment">
+
+            <textarea name="comment_box" required placeholder="write your comment..." 
+            maxlength="1000" cols="30" rows="10"></textarea>
+            <input type="submit" value="add comment" name="add_comment" class="inline-btn">
+
+        </form>
+
+        <h1 class="heading"> 6 comments</h1>
+
+        <div class="show-comments">
+            <div class="box">
+
+                <div class="user">
+
+                    <img src="/Assets/Images/student 1.png" alt="">
+
+                    <div>
+                        <h3>Darpan Biswas</h3>
+                        <span>18/12/2025</span>
+                    </div>
+                </div>
+                    <p class="text">Great tutorial for beginners, I finally understand how HTML tags work together. Very clear explanation of HTML basics, the examples made it easy to understand page structure. </p>
+                    <form action="" method="post" class="flex-btn">
+                        <button type="submit" name="edit_comment" 
+                        class="inline-option-btn">edit comment</button>
+
+                        <button type="submit" name="delete_comment" 
+                        class="inline-delete-btn">delete comment</button>
+
+                    </form>
+            </div>
+
+
+            <div class="box">
+                <div class="user">
+                    <img src="/Assets/Images/student 1.png" alt="">
+                    <div>
+                        <h3>Amit Sharma</h3>
+                        <span>22/12/2025</span>
+                    </div>
+                </div>
+                <p class="text">Great tutorial for beginners, 
+                    I finally understand how HTML tags work together.</p>
+            </div>
+
+
+            <div class="box">
+                <div class="user">
+                    <img src="/Assets/Images/student 2.png" alt="">
+                    <div>
+                        <h3>Priya Singh</h3>
+                        <span>15/12/2025</span>
+                    </div>
+                </div>
+                <p class="text">Perfect tutorial for someone starting web development.</p>
+            </div>
+
+
+            <div class="box">
+                <div class="user">
+                    <img src="/Assets/Images/student 1.png" alt="">
+                    <div>
+                        <h3>Kunal Mehta</h3>
+                        <span>11/12/2025</span>
+                    </div>
+                </div>
+                <p class="text">Easy language and clear examples,  This tutorial made HTML much easier to understand.</p>
+            </div>
+
+
+            <div class="box">
+                <div class="user">
+                    <img src="/Assets/Images/student 2.png" alt="">
+                    <div>
+                        <h3>Ananya Das</h3>
+                        <span>28/12/2025</span>
+                    </div>
+                </div>
+                <p class="text">Nicely structured lesson, I enjoyed learning HTML through this tutorial.</p>
+            </div>
+
+
+            <div class="box">
+                <div class="user">
+                    <img src="/Assets/Images/student 2.png" alt="">
+                    <div>
+                        <h3>Sneha Roy</h3>
+                        <span>08/12/2025</span>
+                    </div>
+                </div>
+                <p class="text">Perfect starting point for learning web development, The concepts were explained step by step.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--------- Comments section ends  ----------------->
+
+
+
+    <!--------- footer section starts ----------->
+
+    <footer class="footer">
+
+        &copy; copyright @ 2026 by <span>Darpan Biswas</span> | all rights reserved!
+
+    </footer>
+
+    <!--------- footer section ends ----------->
+
+    <!--------- js file link ------->
+    <script src="/Assets/JS/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+Acadira - Learning Platform for Smarter Education
+
+
+/****------- watch Video Section -----------***/
+
+HTML Details - 
+
+Dr. Tim Berners - Developer
+02/12/2025
+45 likes
+
+Description - This course teaches HTML from basics to core concepts, helping you build structured, accessible websites using essential tags, elements, and semantic markup with confidence. This HTML course guides you from beginner to confident web creator. You will learn essential tags, 
+elements, and semantic HTML to build well-structured, accessible, and responsive web pages suitable for real-world projects.
+
+
+
+
+Home ------------
+
+Acadira
+Darpan Biswas
+student
+view profile
+login
+register
+view profile
+
+quick select section ----------------
+
+quick options
+likes and comments
+view likes
+view comments
+saved playlist:
+view playlists
+
+top categories---
+development
+business
+design
+marketing
+music
+photography
+software
+science
+
+Popular Topics---
+HTML
+CSS
+javascript
+react
+PHP
+bootstrap
+
+Become a Tutor --
+Share your expertise, inspire learners worldwide, build your teaching brand, earn income, and grow professionally with our supportive, modern learning platform.
+
+
+About us ----------
+
+why choose us?
+Expert instructors, practical courses, flexible learning, industry relevance, supportive community, career focus, modern tools, affordable pricing, trusted outcomes, worldwide recognition.
+
+
+student reviews----
+
+Amit Sharma - The courses are well structured and easy to follow. Concepts are explained clearly with practical examples. Highly recommended for beginners.
+
+Neha Gupta - I loved the learning experience on this platform. The instructors explain topics step by step, making even complex concepts simple.
+
+Arjun Malhotra - The courses are up to date and industry focused. I especially liked the clean interface and smooth learning flow..
+
+Kunal Mehta - This platform helped me improve my coding skills significantly. The explanations are clear and beginner friendly.
+
+Ananya Das- The instructors are knowledgeable and engaging. I enjoyed learning at my own pace without feeling overwhelmed.
+
+Rohit Kumar - One of the best platforms for online learning. The content quality and user interface are both impressive.
+
+
+
+Playlist- our courses
+
+Dr. Tim Berners - 02-12-2025 - Complete HTML Tutorial
+
+Dr. Alan Richards - 05-11-2025 - Complete CSS Tutorial
+
+Prof. Laura Bennett - 17-11-2025 - Complete JS Tutorial
+
+Dr. Steven Parker - 02-01-2026 - Complete Bootstrap Tutorial
+
+Prof. Monica Hayes - 11-01-2026 - Complete JQuery Tutorial
+
+Dr. Laura Bennett - 11-12-2025 - Complete Saas Tutorial
+
+Dr. Jonathan Miller - 12-10-2025 - Complete React Tutorial
+
+Dr. Michael Thompson - 28-12-2025 - Complete MySQL Tutorial
+
+Prof. Nathan Scott - 09-10-2025 - Complete PHP Tutorial
+
+
+Watch video section --- complete HTML tutorial (part 01)
+
+complete HTML tutorial
+HTML is the foundation of web development. This course helps you learn how to build structured web pages using essential tags, elements, and semantic HTML for clean and accessible websites.
+
+02/12/2025
+45 likes
+Dr. Tim Berners
+Developer
+
+This course teaches HTML from basics to core concepts, helping you build structured, accessible
+websites using essential tags, elements, and semantic markup with confidence.This HTML course guides you from beginner to confident web creator. 
+You will learn essential tags, elements, and semantic HTML to build well-structured, accessible, and responsive web pages suitable for real-world projects.
+
+
+
+comments  Section -------
+
+Darpan Biswas
+18/12/2025
+Very clear explanation of HTML basics, the examples made it easy to understand page structure.
+
+Amit Sharma
+22/12/2025
+Great tutorial for beginners, I finally understand how HTML tags work together.
+
+
+Priya Singh
+15/12/2025
+Perfect tutorial for someone starting web development, Well explained and easy to follow.
+
+
+Kunal Mehta
+11/12/2025
+Easy language and clear examples,  This tutorial made HTML much easier to understand.
+
+Ananya Das
+28/12/2025
+Nicely structured lesson, I enjoyed learning HTML through this tutorial.
+
+Sneha Roy
+08/12/2025
+Perfect starting point for learning web development, The concepts were explained step by step.
+
+teachers section ------
+
+expert tutors
+become tutor
+
+Share your knowledge and inspire learners worldwide by becoming 
+a tutor on our growing learning platform.
+
+Dr. Tim Berners - Developer
+
+playlist : 4
+total videos : 18
+total likes : 1208
+
+
+Dr. Alan Richards - Frontend Developer
+
+playlist : 5
+total videos : 13
+total likes : 1104
+
+Prof. Laura Bennett - Full-Stack Developer
+
+playlist : 10
+total videos : 23
+total likes : 1527
+
+Dr. Steven Parker - UI/UX Design Mentor
+playlist : 9
+total videos : 17
+total likes : 1025
+
+Prof. Monica Hayes -Data Science Specialist
+
+playlist : 15
+total videos : 5
+total likes : 1309
+
+Dr. Laura Bennett - Programming Instructor
+
+playlist : 11
+total videos : 7
+total likes : 1477
+
+Dr. Michael Thompson - Data Science Specialist
+
+playlist : 4
+total videos : 16
+total likes : 1723
+
+teacher profile section --------
+Dr. Tim Berners
+
+playlist : 4
+total videos : 18
+total likes : 1208
+comments : 52
+
+
+Contact us section --------
+
+phone number ---
+91-9XXXXX-XXXX
+91-9XXXXX-XXXX
+
+email adress --- 
+darpanbiswas225@gmail.com 
+darpanbiswas225@outlook.com
+
+Address --- 
+Beleghta OLD CIT Building, Chaulpatty Rd, Kolkata - 700 010
+
+profile ----- 
+
+
+Darpan Biswas
+Student
+
+3
+saved playlists
+view playlists
+
+55
+liked tutorials
+view liked
+
+15
+video comments
+view comments
+
+
+update profile --------
+
+
+
+
+footer section ---- copyright @ 2026 by Darpan Biswas | all rights reserved!
