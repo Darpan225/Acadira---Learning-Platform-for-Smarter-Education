@@ -1410,69 +1410,214 @@ color: var(--light-color);
 
 }
 
-/* --------- media queries ----------- */
+/* ------------------------- media queries ------------------------------ */
+
+
+/* ------------ 1200px ----- ---- */
 
 
 @media (max-width:1200px){
 
- .side-bar{
-        transition: .2s linear;
+  .side-bar{
+      transition: .2s linear;
         left: -30rem;
     }
 
- .side-bar.active{
-        left: 0;
-        box-shadow: 0 0 0 100vw rgba(0,0,0,.8); 
+    .side-bar.active{
+     left: 0;
+      box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
     }
 
-.side-bar .close-side-bar{
-    display: block;
-}
+    .side-bar .close-side-bar{
+        display: block;
+    }
+
+    body{
+        padding-left: 0;
+    }
+
+    body.active{
+        padding-left: 0;
+    }
 
 }
+
+/* --------- 991px ------------- */
 
 @media (max-width:991px){
 
     html{
         font-size: 55%;
     }
+    .courses .box-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .reviews .box-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .teachers .box-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about .row{
+        flex-direction: column;
+    }
+    .about .row .image,
+    .about .row .content{
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .about .row .image img{
+        height: 35rem;
+    }
+
+    .contact .row{
+        flex-direction: column;
+    }
+
+    .contact .row .image{
+        flex: 1 1 100%;
+    }
+
+    .contact .row .image img{
+        height: 35rem;
+    }
+    .contact .row form{
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .playlist .row{
+        flex-direction: column;
+   }
+
+    .playlist .row .col{
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    .watch-video .video-details .flex{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .form-container form{
+        width: 90%;
+    }
 
 }
 
 
-@media (max-width:768px){
 
-#search-btn{
-    display:inline-block;
-}
+/* ---------- 768px ---------- */
+    @media (max-width:768px){
+
+    #search-btn{
+        display: inline-block;
+    }
 
     .header .flex .search-form{
         position: absolute;
-        top:99%; left: 0; right: 0;
+        top: 99%; left: 0; right: 0;
         width: auto;
         border-top: var(--border);
         border-bottom: var(--border);
         background-color: var(--white);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         transition: .2s linear;
+        border-radius: 0;
     }
 
-     .header .flex .search-form.profile.active{
-
+    .header .flex .search-form.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
 
-     }
+    .courses .box-container{
+        grid-template-columns: 1fr;
+   }
+
+    .reviews .box-container{
+        grid-template-columns: 1fr;
+    }
+
+    .teachers .box-container{
+        grid-template-columns: 1fr;
+    }
+
+    /* quick select - single column */
+    .quick-select .box-container{
+        grid-template-columns: 1fr;
+    }
+
+    .videos-container .box-container{
+        grid-template-columns: 1fr;
+}
+
+    .about .box-container{
+        justify-content: center;
+    }
+ .about .box-container .box{
+        flex: 1 1 45%;
+    }
+
+    .contact .box-container{
+        flex-direction: column;
+    }
+
+    .contact .box-container .box{
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .profile .details .box-container{
+        flex-direction: column;
+    }
+
+    .profile .details .box-container .box{
+        flex: 1 1 100%;
+    }
+
+   .tutor-profile .details .flex{
+        flex-direction: column;
+    }
+
+    .tutor-profile .details .flex p{
+        flex: 1 1 100%;
+    }
+
+    .playlist .row .col .thumb{
+        height: 22rem;
+    }
+
+    .watch-video .video-details .info{
+        flex-wrap: wrap;
+     gap: 1rem;
+    }
+
+ .form-container{
+        padding: 2rem;
+        align-items: flex-start;
+        padding-top: 4rem;
+    }
+
+    .form-container form{
+        width: 100%;
+    }
 
 }
 
+
+/* ------------ 450px ------------ */
 
 @media (max-width:450px){
 
     html{
         font-size: 50%;
     }
+
     .heading{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .flex-btn{
@@ -1484,19 +1629,63 @@ color: var(--light-color);
         height: auto;
     }
 
-    .playlist .row .col .thumb{
-        height: 20rem;
+    .about .box-container .box{
+        flex: 1 1 100%;
     }
 
     .contact .row .image img{
         height: auto;
     }
 
+    .playlist .row .col .thumb{
+        height: 18rem;
+    }
 
+    .playlist .row .col .save_list button{
+        width: 100%;
+        text-align: center;
+    }
+
+    .watch-video .video-details .flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+ .header .flex .logo{
+        font-size: 2.8rem;
+    }
+
+
+    .inline-btn,
+    .inline-option-btn,
+    .inline-delete-btn{
+        display: block;
+        width: 100%;
+        text-align: center;
 }
 
 
+    .teachers .search-tutor{
+        flex-wrap: wrap;
+    }
 
+    .side-bar .profile img{
+        height: 8rem;
+        width: 8rem;
+ }
+
+    .footer{
+        font-size: 1.6rem;
+        padding: 2rem 1rem;
+ }
+
+
+    .form-container{
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+
+}
 
 
 
